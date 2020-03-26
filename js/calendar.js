@@ -1,38 +1,44 @@
-var app = {
-	settings: {
-		container: $('.calendar'),
-		calendar: $('.front'),
-		days: $('.weeks span'),
-		form: $('.back'),
-		input: $('.back input'),
-		buttons: $('.back button')
-	},
+// Elements
+var badge = document.querySelector('.badge');
+var caption = document.querySelector('figcaption');
+var details = document.querySelector('.details');
+var detailsContent = document.querySelector('.details__content');
 
-	init: function() {
-		instance = this;
-		settings = this.settings;
-		this.bindUIActions();
-	},
+var lowResImage = document.querySelector('.img');
+var highResImage = document.createElement('img');
 
-	swap: function(currentSide, desiredSide) {
-		settings.container.toggleClass('flip');
+var front = document.querySelector('.front');
+var back = document.querySelector('.back');
+var showFrontBtn = document.querySelector('#show-front');
+var showBackBtn = document.querySelector('#show-back');
 
-		currentSide.fadeOut(900);
-		currentSide.hide();
+// Figcaption Hover Preview
+caption.addEventListener('mouseover', function () {
+  var contentHeight = detailsContent.offsetHeight;
+  details.style.height = contentHeight + 10 + 'px';
+  badge.innerHTML = '<i class="fas fa-minus-square"></i>';
+});
 
-		desiredSide.show();
-	},
+caption.addEventListener('mouseout', function () {
+  details.style.height = 0;
+  badge.innerHTML = '<i class="fas fa-plus-square"></i>';
+});
 
-	bindUIActions: function() {
-		settings.days.on('click', function(){
-			instance.swap(settings.calendar, settings.form);
-			settings.input.focus();
-		});
-
-		settings.buttons.on('click', function(){
-			instance.swap(settings.form, settings.calendar);
-		});
-	}
+// Lazy Load Figure Image
+highResImage.onload = function () {
+  lowResImage.src = highResImage.src;
 }
+setTimeout(function () {
+ highResImage.src = 'https://images.pexels.com/photos/1168981/pexels-photo-1168981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=3595&w=5407';
+}, 1000);
 
-app.init();
+// Card Flipping
+showBackBtn.addEventListener('click', function () {
+  back.style.transform = "perspective( 2000px ) rotateY( 0deg )";
+  front.style.transform = "perspective( 2000px ) rotateY( -180deg )";
+});
+
+showFrontBtn.addEventListener('click', function () {
+  front.style.transform = "perspective( 2000px ) rotateY( 0deg )";
+  back.style.transform = "perspective( 2000px ) rotateY( 180deg )";
+});
