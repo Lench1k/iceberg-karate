@@ -10380,14 +10380,14 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
 }
 
 
-
-
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
      
-      
       p{
         margin-top: .7em;
-        
-        
       }
       .warning{
         color: rgb(255, 255, 255);
@@ -10397,10 +10397,7 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
         overflow: auto;
         border: 3px solid #535bd8; /* Белая рамка */
         border-radius: 10px; /* Радиус скругления */
-        display: inline-block;
-        ;
-            
-   
+        
       }
       
       [data-table_id="1"]{
@@ -10408,7 +10405,7 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
       }
       [data-table_id="2"]{
         background-color: rgb(255, 255, 255);
-        color: rgb(220,220,220);
+        color: rgb(255, 255, 255);
       }
       [data-table_id="3"]{
         background-color: rgba(255, 255, 255, 0.8);
@@ -10442,6 +10439,9 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
         background-color: rgb(255, 255, 255);
         color: rgb(255, 255, 255);
         margin: 20px 0;
+      }
+      /* ###  Table wrap */
+      .st_wrap_table{
         
       }
       /* ##   header */
@@ -10451,12 +10451,13 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
         top: 0px;
         z-index: 1;
         background-color: #535bd8;
-        color: rgb(255, 255, 255);
+        color: rgb(220,220,220);
       }
       .st_table_header h2{
         font-weight: 400;
         margin: 0 20px;
         padding: 20px 0 0;
+        width: 15000;
       }
       .st_table_header .st_row{
         color: rgba(255, 255, 255, 0.7);
@@ -10464,7 +10465,6 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
       .st_table_header .st_column{
         
       }
-
       /* ##  table */
       .st_table{
         display: -webkit-box;
@@ -10484,7 +10484,6 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
         display: -ms-flexbox;
         display: flex;
         margin: 0;
-        
       }
       .st_table .st_row:nth-child(even){
         background-color: rgba(255, 255, 255, 0.1)
@@ -10492,7 +10491,6 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
       /* #   column */
       .st_column{
         padding: 10px 20px;
-        
       }
 
 
