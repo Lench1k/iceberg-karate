@@ -218,7 +218,7 @@ input:checked ~ .questions {
 /*----------tool-tip------------*/
 
 .tip {
-    color: #0055af;
+    color: #edce35;
     cursor: help;
     position: relative;
     overflow: visible;
@@ -239,7 +239,7 @@ input:checked ~ .questions {
     content: '';
     border-style: solid;
     border-width: 0.8em 0.5em 0 0.5em;
-    border-color: #3E474F transparent transparent transparent;
+    border-color: #f7f7f7 transparent transparent transparent;
     transform: translateY(-200%);
     bottom:90%;
     left:50%;
@@ -247,9 +247,9 @@ input:checked ~ .questions {
 
 .tip:after {
     content: attr(data-tip);
-    background: #3E474F;
-    color: white;
-    width: 150px;
+    background: #f7f7f7;
+    color: #121212;
+    width: 500px;
     padding: 10px;
     font-size: 0.8em;
     bottom: 150%;
