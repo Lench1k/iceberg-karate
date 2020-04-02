@@ -10379,9 +10379,7 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
     background-color: #0055af;
 }
 
-li {
-    list-style-type: none; /* Убираем точки маркеры */
-    }
+
 
 
      
@@ -10390,22 +10388,22 @@ li {
         margin-top: .7em;
       }
       .warning{
-        color: rgb(62,148,236);
+        color: rgb(255, 255, 255);
       }
       .st_viewport{
-        max-height: 1000px;
+        max-height: 840px;
         overflow: auto;
       }
       
       [data-table_id="1"]{
-        background-color: rgb(255,115,0);
+        background-color: rgb(255, 255, 255);
       }
       [data-table_id="2"]{
-        background-color: rgb(61,53,39);
+        background-color: rgb(255, 255, 255);
         color: rgb(220,220,220);
       }
       [data-table_id="3"]{
-        background-color: rgba(168,189,4, .8);
+        background-color: rgba(255, 255, 255, 0.8);
       }
       
       ._rank{
@@ -10424,7 +10422,7 @@ li {
         min-width: 150px;
       }
       ._section{
-        min-width: 990px;
+        min-width: 100px;
       }
       
       pre{
@@ -10433,8 +10431,8 @@ li {
       
       /** Sticky table styles **/
       .st_viewport{
-        background-color: rgb(62,148,236);
-        color: rgb(27,30,36);
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
         margin: 20px 0;
       }
       /* ###  Table wrap */
@@ -10447,8 +10445,8 @@ li {
         position: sticky;
         top: 0px;
         z-index: 1;
-        background-color: rgb(204, 214, 235);
-        color: rgb(220,220,220);
+        background-color: #535bd8;
+        color: rgb(255, 255, 255);
       }
       .st_table_header h2{
         font-weight: 400;
@@ -10456,7 +10454,7 @@ li {
         padding: 20px 0 0;
       }
       .st_table_header .st_row{
-        color: rgba(220,220,220, .7);
+        color: rgba(255, 255, 255, 0.7);
       }
       .st_table_header .st_column{
         
@@ -10482,7 +10480,7 @@ li {
         margin: 0;
       }
       .st_table .st_row:nth-child(even){
-        background-color: rgba(0,0,0, .1)
+        background-color: rgba(255, 255, 255, 0.1)
       }
       /* #   column */
       .st_column{
