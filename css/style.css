@@ -145,19 +145,21 @@ label {
     cursor: pointer;
     border: 3px solid #3E474F;
     user-select: none;
-    background-image: url("images/poyas/10.jpg");
+    
 }
 
 label div:first-child {
     width: 100%;
     line-height: 45px;
-    margin-left: 10px;
+    
     font-size: 1.2em;
+    
 }
 
 .cross{
     margin-right:15px;
     margin-top:3px;
+    
 }
 
 .cross:before,.cross:after {
