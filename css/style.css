@@ -96,6 +96,9 @@ Mid Grey background color:  ebebeb
 65. Footer
 66. Copyright
 69. UP Button
+70. Show on monbile
+71. Hide on mobile
+72. tabliza
 */
 
 
@@ -373,18 +376,6 @@ a:focus { outline: thin dotted; }
 /* Transparent Black Background
 ----------------------------------------------------------------------------- */
 .transparent-black-background-color { background-color: rgba(0, 0, 0, 0.70) !important; }
-
-
-/* White Background
------------------------------------------------------------------------------ */
-.white-background-color { background-color: #ffffff; }
-
-
-/* Grey Background
------------------------------------------------------------------------------ */
-.grey-background-color { background-color: #f7f7f7; }
-
-
 
 /* ToolTip
 ============================================================================= */
@@ -10381,6 +10372,27 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
     background-color: #0055af;
 }
 
+/* 70. Show on mobile */
+
+.show-on-mobile { display: none; }
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .show-on-mobile { display: inline; }}
+
+/* 71.Hide on mobile */
+
+.hide-on-mobile { display: inline; }
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
+
+
+
+
+/* 72. tabliza */
+
 
       *{
         margin: 0;
@@ -10435,6 +10447,13 @@ footer.copyright-section > .section-container { padding: 25px 0 10px; }
       pre{
         overflow: auto;
       }
+      
+
+
+
+
+
+
       
       /** Sticky table styles **/
       .st_viewport{
