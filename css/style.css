@@ -123,6 +123,7 @@ body{
     -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
 }
+ /* trebovaniya */
 * {
     padding: 0;
     margin: 0;
@@ -212,6 +213,7 @@ input:checked ~ label .cross:after {
     border:none;
     box-shadow: none;
     margin:0;
+    background-color: white;
 }
 
 input:checked ~ .questions {
@@ -1159,10 +1161,10 @@ ul.navbar-nav > li > a:not(.btn):focus { background-color: transparent; }
 /* Button
 --------------------------------------------------------- */
 ul.navbar-nav > li > a.btn {
-    height: 44px;
+    height: 50px;
     margin: 18px 0;
     padding: 0 30px;
-    line-height: 44px;
+    line-height: 50px;
 }
 
 
