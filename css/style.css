@@ -10612,16 +10612,16 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 
 
 .to-top{
-	color:rgba(218, 10, 10, 0.808);
+	color:#0055af;
 	padding-top:1.8em;
 	display:inline-block;/* or block */
     position:fixed;
-    bottom:15px;
-    right:160px;
-	border-color:rgb(126, 39, 39);
+    bottom:10px;
+    right:15px;
+	border-color:#0055af;
 	text-decoration:none;
     transition:all .3s ease-out;
-    font-size:140%;
+    font-size:100%;
     margin:2em;
     text-align:center;
 }
@@ -10632,17 +10632,17 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 	top:0;
 	left:50%;
 	margin-left:-.7em;
-	border:solid .13em rgb(199, 29, 29);
+	border:#0055af;
 	border-radius:10em;
 	width:1.4em;
 	height:1.4em;
 	line-height:1em;
-	border-color:inherit;
+	border-color:#0055af;
 	transition:transform .5s ease-in;
 }
 .to-top:hover{
-	color:pink;
-	border-color:pink;
+	color:#edce35;
+	border-color:#edce35;
 }
 .to-top:hover:before{
 	transform: rotate(360deg);
