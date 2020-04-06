@@ -99,6 +99,9 @@ Mid Grey background color:  ebebeb
 70. Show on monbile
 71. Hide on mobile
 72. tabliza
+73. up button 2
+74. trebovaniya
+
 */
 
 
@@ -10450,12 +10453,6 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
         overflow: auto;
       }
       
-
-
-
-
-
-
       
       /** Sticky table styles **/
       .st_viewport{
@@ -10473,7 +10470,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
         position: sticky;
         top: 0px;
         z-index: 1;
-        background-color: #535bd8;
+        background-color: #ffffff;
         color: rgb(220,220,220);
       }
       .st_table_header h2{
@@ -10481,9 +10478,10 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
         margin: 0 20px;
         padding: 20px 0 0;
         width: 15000;
+
       }
       .st_table_header .st_row{
-        color: rgba(255, 255, 255, 0.7);
+        color: rgba(161, 44, 44, 0.7);
       }
       .st_table_header .st_column{
         
@@ -10577,13 +10575,6 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 }
 
 
-
-
-
-
-
-
-
 .thing {
     padding: 1rem;
     width: 720px;
@@ -10617,6 +10608,45 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 
 
 
+/* 73. up button for mobile */
+
+
+.to-top{
+	color:rgba(218, 10, 10, 0.808);
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+    position:fixed;
+    bottom:15px;
+    right:160px;
+	border-color:rgb(126, 39, 39);
+	text-decoration:none;
+    transition:all .3s ease-out;
+    font-size:140%;
+    margin:2em;
+    text-align:center;
+}
+.to-top:before{
+	content:'▲';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em rgb(199, 29, 29);
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color:pink;
+	border-color:pink;
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}
 
 
 
@@ -10634,10 +10664,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 
 
 
-
-
-
-
+/* 74. trebovania */
 
   
   .wrapper2{

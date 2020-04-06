@@ -48,6 +48,7 @@
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/style21.css">
         <link rel="stylesheet" href="js/menu2.js">
+        <link rel="stylesheet" href="js/upbutton.js.">
 
         <!--  Head JS Libs -->
         <script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script src="js/vendor/modernizr-custom.js"></script>
@@ -201,15 +202,15 @@
             </div><!-- /End Top Header -->                   
         </div><!-- /End Header Section Container -->
     </header><!-- /End Header -->
-    <img src="images/fongrad.png" width="2000" height="100" alt="MFK Logo">
           <div class="show-on-mobile">
             <br><br><br><br><br><br><br><br>
         </div>
         <div class="hide-on-mobile">
+          <img src="images/fongrad.png" width="2000" height="100" alt="MFK Logo">
           <br><br>
       </div>
 
-     
+      
 
             <div class="wrapper2">
                 <h1>Экзаменационные требования</h1>
@@ -1291,17 +1292,29 @@
 
 <br><br><br><br>
               <h1>Терминология</h1>
-<main class="st_viewport">
+<main class="st_viewport ">
   <div class="st_wrap_table" data-table_id="0">
     <header class="st_table_header">
+      <div class="hide-on-mobile">
+        <p style="background-color: blue;"><h2>Table header one</h2></p>
+      <div class="st_row">
+        <div style="background-color: blue;"class="st_column _rank">№</div>
+        <div style="background-color: blue;"class="st_column _name">Транскрипция (ен)</div>
+        <div style="background-color: blue;"class="st_column _surname">Транскрипция (ру)</div>
+        <div style="background-color: blue;"class="st_column _year">По-японски</div>
+        <div style="background-color: blue;"class="st_column _section">Значение</div>
+      </div>
+    </div>
+    <div class="show-on-mobile">
       <h2>Table header one</h2>
       <div class="st_row">
-        <div class="st_column _rank">№</div>
-        <div class="st_column _name">Транскрипция (ен)</div>
-        <div class="st_column _surname">Транскрипция (ру)</div>
-        <div class="st_column _year">По-японски</div>
-        <div class="st_column _section">Значение</div>
+        <div style="color: blue"class="st_column _rank">№</div>
+        <div style="color: blue"class="st_column _name">Транскрипция (ен)</div>
+        <div style="color: blue"class="st_column _surname">Транскрипция (ру)</div>
+        <div style="color: blue"class="st_column _year">По-японски</div>
+        <div style="color: blue"class="st_column _section">Значение</div>
       </div>
+    </div>
     </header>
     <div class="st_table">
       <div class="st_row">
@@ -1894,7 +1907,9 @@
 <br>Ханси - высший мастер (от 8 Дана и выше)
 </p>
 
-
+<div class="show-on-mobile">
+  <a href="#" class="to-top">Наверх</a>
+</div>
 
 
 
