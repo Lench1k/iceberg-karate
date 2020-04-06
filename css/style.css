@@ -10470,7 +10470,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
         position: sticky;
         top: 0px;
         z-index: 1;
-        background-color: #ffffff;
+        background-color: #535bd8;
         color: rgb(220,220,220);
       }
       .st_table_header h2{
