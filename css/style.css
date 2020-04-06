@@ -10616,7 +10616,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 	padding-top:1.8em;
 	display:inline-block;/* or block */
     position:fixed;
-    bottom:5px;
+    bottom:-30px;
     right:15px;
 	border-color:#0055af;
 	text-decoration:none;
