@@ -10617,11 +10617,11 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 	display:inline-block;/* or block */
     position:fixed;
     bottom:15px;
-    right:15px;
+    right:25px;
 	border-color:#0055af;
 	text-decoration:none;
     transition:all .3s ease-out;
-    font-size:100%;
+    font-size:150%;
     margin:2em;
     text-align:center;
 }
