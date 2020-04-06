@@ -23,4 +23,4 @@ setInterval(function(){
     autoToggle();
   }
 
-},2000);
+},4000);

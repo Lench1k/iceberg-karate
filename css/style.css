@@ -10647,6 +10647,10 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 .to-top:hover:before{
 	transform: rotate(360deg);
 }
+.to-top::after{
+    color:#0055af;
+	border-color:#0055af;
+}
 
 
 
