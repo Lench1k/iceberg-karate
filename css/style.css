@@ -11,12 +11,12 @@ Author: Lenchik
 #009dd4 golub
 #0055af temnsin
 #edce35 zhelt
-Цвет кнопок:                0055af
+Цвет кнопок:                #0055af
 Main color:                 d32f2f
 Heading text color:         121212
 Body text color:            515151
-Border color:               dddddd
-Grey background color:      f7f7f7
+Border color:               #dddddd
+Grey background color:      #f7f7f7
 Mid Grey background color:  ebebeb
 
 0a43e0
@@ -10788,10 +10788,10 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
   .arrow-up,
   .scroll-up {
     position: fixed;
-    background-color: white;    
+    background-color: whitesmoke;    
     bottom: 40px;
     right: 55px;
-    z-index: 999999999999999999999999999999999999999;
+    z-index: 999999999;
   }
 
 
