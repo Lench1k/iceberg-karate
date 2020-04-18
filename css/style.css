@@ -10561,7 +10561,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
         min-width: 150px;
       }
       ._section{
-        min-width: 100px;
+        min-width: 300px;
       }
       
       pre{
