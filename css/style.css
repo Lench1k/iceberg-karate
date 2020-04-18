@@ -10561,7 +10561,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
         min-width: 150px;
       }
       ._section{
-        min-width: 300px;
+        min-width: 250px;
       }
       
       pre{
@@ -10589,7 +10589,6 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
         color: rgb(220,220,220);
       }
       .st_table_header h2{
-        font-weight: 400;
         margin: 0 20px;
         padding: 20px 0 0;
         width: 15000;
@@ -10675,6 +10674,10 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 }
 
 
+
+/*
+* zhelt giperrssilka
+*/
 .thing {
     padding: 1rem;
     width: 720px;   
