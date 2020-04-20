@@ -10558,7 +10558,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
         min-width: 250px;
       }
       ._year{
-        min-width: 150px;
+        min-width: 0px;
       }
       ._section{
         min-width: 250px;
@@ -10591,7 +10591,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
       .st_table_header h2{
         margin: 0 20px;
         padding: 20px 0 0;
-        width: 15000;
+ 
 
       }
       .st_table_header .st_row{
@@ -10682,7 +10682,7 @@ and (max-device-width : 480px){ .hide-on-mobile { display: none; }}
 
 
 /*
-* zhelt giperrssilka
+* polosa sin
 */
 .thing {
     padding: 1rem;
